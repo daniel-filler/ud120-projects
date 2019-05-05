@@ -21,7 +21,7 @@ features_train, features_test, labels_train, labels_test = preprocess()
 
 
 print(len(features_train[0]))
-"""
+
 #########################################################
 ### your code goes here ###
 from sklearn.tree import DecisionTreeClassifier
@@ -44,4 +44,3 @@ print("accuracy =", acc)
 #########################################################
 
 
-"""
